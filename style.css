@@ -1,4 +1,88 @@
-body{
+*{
     margin: 0;
     padding: 0;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+    color: (#575757);
+}
+header{
+    background-image: linear-gradient(45deg, orange,tomato);
+    height: 50px;
+}
+ul{
+    padding: 15px;
+    text-align: right;
+}
+li{
+    list-style: none;
+    display: inline;
+    padding: 20px;
+}
+.navbar{
+    text-decoration: none;
+    font-weight: 600;
+    color: white;
+}
+.orange{
+    color: orange;
+}
+.flex-container{
+    display: flex;
+    padding-bottom: 0px;
+}
+h1{
+    font-size: 60px;
+    margin: 16%;
+    margin-bottom: 40px;
+    opacity: 0.65;
+}
+p{
+    margin-left: 16%;
+    margin-bottom: 10%;
+    font-size: 20px;
+    font-weight: 80px;
+    opacity: 0.65;
+    margin-right: 16%;
+}
+.half-width{
+    width: 50%;
+    padding-left: 2%;
+}
+.half-width img{
+    width: 85%;
+    margin-left: 0%;
+}
+.top-banner{
+    padding-left: 50px;
+    padding-top: 50px;
+}
+.button{
+    text-decoration: none;
+    color: white;
+    margin-left: 16% ;
+    background-image: linear-gradient(45deg,orange,tomato);
+    padding: 20px 50px;
+    border-radius: 40px;
+    box-shadow: 10px 10px 40px gray;
+    font-size: 20px;
+}
+#person-image{
+    width: 50%;
+    margin-left: 25%;
+    padding-top: 70px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+.second-banner{
+    background-image: url(images/shapes/7.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-bottom: 50px;
+    padding-bottom: 50px;
+}
+.recipe-header{
+    margin-top: 2% ;
+    text-align: center;
+    padding: 0px 300px;
 }
