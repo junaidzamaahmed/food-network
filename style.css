@@ -27,6 +27,9 @@ li{
 .orange{
     color: orange;
 }
+.gray{
+    color: gray;
+}
 .flex-container{
     display: flex;
     padding-bottom: 0px;
@@ -85,4 +88,35 @@ p{
     margin-top: 2% ;
     text-align: center;
     padding: 0px 300px;
+    margin-bottom: 0;
+}
+
+.recipes{
+    box-shadow: 10px 10px 40px gray;
+    margin: 5%;
+    padding: 1.5%;
+    border-radius: 30px;
+}
+.recipes p{
+    margin: 0;
+    padding: 0;
+}
+h2{
+    font-size: 40px;
+    padding: 30px 0px;
+}
+.recipes img{
+    width: 100%;
+}
+footer{
+    padding-top: 30px;
+    background-color: black;
+    text-align: center;
+    height: 300px;
+}
+footer p{
+    margin-bottom: 0;
+    margin-top: 40px;
+    color: white;
+    opacity: 1;
 }
