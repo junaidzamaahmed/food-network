@@ -94,7 +94,7 @@ p{
 .recipes{
     box-shadow: 10px 10px 40px gray;
     margin: 5%;
-    padding: 1.5%;
+    padding: 1.3%;
     border-radius: 30px;
 }
 .recipes p{
@@ -106,7 +106,8 @@ h2{
     padding: 30px 0px;
 }
 .recipes img{
-    width: 100%;
+    width: 400px;
+    border-radius: 30px;
 }
 footer{
     padding-top: 30px;
